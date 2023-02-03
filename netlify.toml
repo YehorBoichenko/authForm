@@ -1,6 +1,6 @@
-
 [build]
-publish = "build"
+  command = "ng build --prod"
+  publish = "dist/password-strength"
 
 [[redirects]]
   from = "/*"
